@@ -1,0 +1,147 @@
+/* Global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+    padding: 20px;
+    color: #333;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  /* Main container */
+  h1 {
+    font-size: 2rem;
+    color: #444;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Recipe image */
+  img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 45px;
+    border: 5px solid bisque;
+  }
+  
+  /* Section headings */
+  h2 {
+    font-size: 1.5rem;
+    color: #555;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #e9ecef;
+    padding-bottom: 5px;
+  }
+  
+  /* Preparation list */
+  .pre ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .pre li {
+    font-size: 1rem;
+    margin: 5px 0;
+  }
+  
+  /* Ingredients and Instructions */
+  ul, ol {
+    margin: 10px 0;
+    padding-left: 20px;
+  }
+  
+  ul li, ol li {
+    margin-bottom: 10px;
+  }
+  
+  /* Table */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  table td:first-child {
+    font-weight: bold;
+  }
+  
+  /* Attribution */
+  .attribution {
+    text-align: center;
+    font-size: 0.9rem;
+    margin-top: 40px;
+    color: #888;
+  }
+  
+  .attribution a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .attribution a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Media Queries for Responsiveness */
+  
+  /* Tablets and smaller devices */
+  @media (max-width: 768px) {
+    body {
+      padding: 15px;
+    }
+  
+    h1 {
+      font-size: 1.8rem;
+    }
+  
+    h2 {
+      font-size: 1.3rem;
+    }
+  
+    p, li, td {
+      font-size: 0.95rem;
+    }
+  }
+  
+  /* Phones and smaller devices */
+  @media (max-width: 480px) {
+    body {
+      padding: 10px;
+    }
+  
+    h1 {
+      font-size: 1.6rem;
+    }
+  
+    h2 {
+      font-size: 1.2rem;
+    }
+  
+    p, li, td {
+      font-size: 0.9rem;
+    }
+  
+    ul, ol {
+      padding-left: 15px;
+    }
+  }
+  
